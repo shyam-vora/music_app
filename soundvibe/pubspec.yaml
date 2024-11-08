@@ -1,0 +1,44 @@
+name: soundvibe
+description: "A new Flutter project."
+publish_to: 'none'
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  just_audio: ^0.9.18
+  provider: ^6.1.2
+  form_validator: ^2.1.1
+  email_validator: ^3.0.0
+  validators: ^3.0.0
+  cupertino_icons: ^1.0.6
+  crystal_navigation_bar: ^1.0.0
+  flutter_localization: ^0.2.2
+  http: ^1.2.2
+  shared_preferences: ^2.3.2
+  intl: ^0.19.0
+  audioplayers: ^6.1.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/logo.jpg" # Path to your icon image
+  adaptive_icon_background: "#FFFFFF" # Optional: Background color for adaptive icons (Android)
+  adaptive_icon_foreground: "assets/logo.jpg" # Optional: Foreground image for adaptive icons (Android)
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+     - assets/logo.jpg
